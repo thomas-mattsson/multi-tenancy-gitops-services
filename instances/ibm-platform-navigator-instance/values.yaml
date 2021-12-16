@@ -6,6 +6,7 @@ global: {}
 
 ibmplatformnavigator:
   name: integration-navigator
+  namespace: cp4i
   spec:
     license:
       accept: true
