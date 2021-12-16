@@ -1,12 +1,15 @@
 global: {}
 
-ibm-platform-navigator-instance:
-  ibmplatformnavigator:
-    name: integration-navigator
-    spec:
-      license:
-        accept: true
-        license: L-RJON-BUVMQX
-      mqDashboard: true
-      version: 2020.4.1-eus
-      replicas: 2   
+# Default values for ibm-platform-navigator-instance.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+ibmplatformnavigator:
+  name: integration-navigator
+  spec:
+    license:
+      accept: true
+      license: L-RJON-C7QG3S
+    mqDashboard: true
+    version: 2021.4.1-1
+    replicas: 2    
