@@ -1,12 +1,15 @@
 global: {}
 
-ibm-common-services:
-  subscriptions:
-    subscription:
-      channel: stable-v1
-      config:
-        resources: {}
-      installPlanApproval: Automatic
-      name: ibm-common-service-operator
-      source: opencloud-operators
-      sourceNamespace: openshift-marketplace
+# Default values for ibm-common-services.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+subscriptions:
+  subscription:
+    channel: stable-v1
+    config:
+      resources: {}
+    installPlanApproval: Automatic
+    name: ibm-common-service-operator
+    source: opencloud-operators
+    sourceNamespace: openshift-marketplace
